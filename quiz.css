@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  background-color: steelblue;
+}
+article {
+  font-weight: bold;
+}
+div {
+  font-size: 4vw;
+}
+p {
+  font-size: 2vw;
+  font-style: italic;
+}
+.placement {
+  display: flex;
+}
