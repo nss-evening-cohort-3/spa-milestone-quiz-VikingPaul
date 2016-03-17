@@ -20,6 +20,7 @@ var CarLot = (function(cLot) {
   };
   cLot.placeInv = function () {
     var local = document.getElementById('placement');
+    local.innerHTML = ""
     for (i in carList) {
       local.innerHTML += `<article class="container col-xs-4" id="num${i}"><div>${carList[i].year} ${carList[i].make}</div><div>${carList[i].model}</div><p>${carList[i].color}</p><section id="id${i}">${carList[i].description}</section><p>$${carList[i].price}</p><p>Purchased: ${carList[i].purchased}</p></article>`;
     }

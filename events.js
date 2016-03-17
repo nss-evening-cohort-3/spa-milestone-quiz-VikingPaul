@@ -14,8 +14,7 @@ var CarLot = (function(cLot) {
     });
     
     document.getElementById('button').addEventListener("click", function(e) {
-      CarLot.resetBorder()
-      idOfClick = ""
+      CarLot.placeInv();
       document.getElementById('text').value = ""
     });
     
