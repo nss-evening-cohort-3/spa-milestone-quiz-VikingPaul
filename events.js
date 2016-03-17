@@ -16,6 +16,7 @@ var CarLot = (function(cLot) {
     document.getElementById('button').addEventListener("click", function(e) {
       CarLot.placeInv();
       document.getElementById('text').value = ""
+      idOfClick = ""
     });
     
     document.getElementById('text').addEventListener("keyup", function(e) {
