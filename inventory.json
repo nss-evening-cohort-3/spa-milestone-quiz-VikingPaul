@@ -1,0 +1,31 @@
+{
+  "cars": [
+    {
+      "make": "Kia",
+      "model": "Soul",
+      "year": "2015",
+      "price": "25000",
+      "color": "Red",
+      "purchased": false,
+      "description": "Literally the best car you could ever own. May have a few dents and dings"
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2015",
+      "price": "25000",
+      "color": "Grey",
+      "purchased": false,
+      "description": "If you like battery acid all over your car, look no further."
+    },
+    {
+      "make": "Dodge",
+      "model": "Neon",
+      "year": "2000",
+      "price": "5000",
+      "color": "Green",
+      "purchased": false,
+      "description": "This car has been to the moon(same milage as distance to the moon) and still runs perfectly. Missing driverside mirror."
+    }
+  ]
+}
